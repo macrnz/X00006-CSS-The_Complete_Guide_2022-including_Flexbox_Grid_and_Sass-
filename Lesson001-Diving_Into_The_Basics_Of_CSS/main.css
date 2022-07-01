@@ -1,0 +1,33 @@
+/*ADDING GLOBAL RULE*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*INLINE SELECTION*/
+section {
+  background: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/*INLINE SELECTION*/
+h1 {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+
+/*CLASS SELECTION*/
+.class-test {
+  color: blue;
+}
+
+/*ID SELECTION*/
+#id-test {
+  background: blue;
+}
+
+/*ADJACENT SELECTION*/
+div p {
+  font-style: italic;
+  padding-left: 50px;
+}
